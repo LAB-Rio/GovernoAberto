@@ -1,17 +1,29 @@
-footer {
-  align-items: center;
-  bottom: 0;
-  color: $dark-grey;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  font-family: 'Maison Neue Mono';
-  font-size: 16px;
-  justify-content: space-between;
-  margin: responsive(24, 58) 0;
-  position: absolute;
-  width: 100%;
+footer{
+    font-size: 1.3rem;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    a{
+      color: #000;
+    }
+    ul.footer-menu{
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+      color: #000;
+      li.list-item{
+        display: inline; 
+        padding: 0 5px;
+        a{
+          color: #000;
+        }
 
+      }
+    }
+  
   @media(max-width: 1250px) {
     flex-direction: column;
     flex-wrap: wrap;
