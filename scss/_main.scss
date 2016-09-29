@@ -4,14 +4,17 @@
   background-size: cover;
   color: $dark-grey;
   display: flex;
-  height: 80vh;
+  height: 90vh;
   justify-content: center;
   width: 100%;
 
   #governoaberto {
+    img {
+      height: 200px;
+    }
     color: $black;
     cursor: pointer;
-    font-family: 'coolvetica';
+    font-family: $first-font;
     font-size: responsive(26, 70);
     max-width: 980px;
     background: $white;
@@ -30,6 +33,23 @@
     // }
 
     .lading-box{
+      
+      &__title{
+          font-size: 30px;
+          text-transform: uppercase;
+
+      }
+      &__conteudo{
+        font-family: $second-font;
+        font-size: 16px;
+        padding: 20px 0 20px;
+        &-red{
+          padding: 20px 0 20px;
+           font-family: $second-font;
+            color: #ef4136;
+            font-size: 16px;
+        }
+      }
       .btn-opengovern{
         background: $white;
         border: 1px solid $red;
@@ -42,26 +62,25 @@
           background: $red;
           color: $white;
           border: 1px solid $white;
-
-        }
-      }
-      &__title{
-          font-size: 30px;
-          text-transform: uppercase;
-
-      }
-      &__conteudo{
-        font-family: $helvetica;
-        font-size: 16px;
-        padding: 20px 0 20px;
-        &-red{
-           font-family: $helvetica;
-            color: #ef4136;
-            font-size: 16px;
         }
       }
     }
     #timer{
+      font-size:  1.500em;
+      font-family: $first-font;
+      div {
+        display: inline-block;
+        line-height: 1;
+        padding: 20px;
+        font-size: 40px;
+      }
+
+      span {
+        display: block;
+        font-size: 20px;
+        color: $black;
+      }
+
       
     }
   }
