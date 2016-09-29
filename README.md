@@ -6,7 +6,9 @@
 
 ## Deploy 
 
-* `npm run production`
+* `npm run deploy`
+
+
 
 ---
 <3 - [@fredericksilva](https://github.com/fredericksilva)
