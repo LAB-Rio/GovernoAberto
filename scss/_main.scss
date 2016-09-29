@@ -1,0 +1,31 @@
+#main {
+  align-items: center;
+  background: url($img-path + 'background.jpg') no-repeat center center;
+  background-size: cover;
+  color: $dark-grey;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+
+  #overnoaberto {
+    color: $black;
+    cursor: pointer;
+    font-family: 'coolvetica';
+    font-size: responsive(26, 70);
+    max-width: 980px;
+
+    .logo {
+      height: responsive(24, 74);
+      width: auto;
+      display: block;
+      width: 100%;
+      margin-bottom: 24px;
+    }
+
+    div {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
