@@ -9,6 +9,11 @@ $orange: #ff6125;
 $white: #ffffff;
 $red: #ef4136;
 
+// Fonts
+
+$helvetica: "helvetica";
+$coolvetica: "coolvetica";
+
 @function responsive($value1, $value2, $width1: 320, $width2: 1920) {
   $x1: $width1;
   $x2: $width2;

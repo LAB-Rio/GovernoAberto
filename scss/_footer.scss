@@ -1,5 +1,6 @@
 footer{
-    font-size: 1.3rem;
+
+    font-size: 12pt;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -7,6 +8,8 @@ footer{
       color: #000;
     }
     ul.footer-menu{
+      font-family: $coolvetica;
+      text-transform: uppercase;
       margin-bottom: 50px;
       display: flex;
       justify-content: center;
