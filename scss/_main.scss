@@ -1,6 +1,6 @@
 #main {
   align-items: center;
-  background: url($img-path + 'background.jpg') no-repeat center center;
+  // background: url($img-path + 'background.jpg') no-repeat center center;
   background-size: cover;
   color: $dark-grey;
   display: flex;
@@ -8,12 +8,13 @@
   justify-content: center;
   width: 100%;
 
-  #overnoaberto {
+  #governoaberto {
     color: $black;
     cursor: pointer;
     font-family: 'coolvetica';
     font-size: responsive(26, 70);
     max-width: 980px;
+    background: $white;
 
     .logo {
       height: responsive(24, 74);
@@ -23,9 +24,15 @@
       margin-bottom: 24px;
     }
 
-    div {
-      width: 100%;
-      text-align: center;
+    // div {
+    //   width: 100%;
+    //   text-align: center;
+    // }
+
+    .lading-box{
+      &__title{
+        font-sie: 20px;
+      }
     }
   }
 }
