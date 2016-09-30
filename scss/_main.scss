@@ -8,13 +8,35 @@
   justify-content: center;
   width: 100%;
 
+  @media(max-width: 414px) {
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .column, .columns {
+      width: 100%;
+    }
+    #governoaberto {
+      .lading-box {
+        .btn-opengovern {
+          justify-content: center;
+          display: flex;
+        }
+      }
+
+      img {
+        height: 180px;
+        margin: 47px;
+      }
+    }
+  }
+
   #governoaberto {
     img {
       height: 200px;
     }
     color: $black;
     cursor: pointer;
-    font-family: $first-font;
+    
     font-size: responsive(26, 70);
     max-width: 980px;
     background: $white;
@@ -27,17 +49,14 @@
       margin-bottom: 24px;
     }
 
-    // div {
-    //   width: 100%;
-    //   text-align: center;
-    // }
+  
 
     .lading-box{
       
       &__title{
           font-size: 30px;
           text-transform: uppercase;
-
+          font-family: "coolvetica","Nobile Medium";
       }
       &__conteudo{
         font-family: $second-font;
@@ -56,7 +75,8 @@
         color: $red;
         text-transform: uppercase;
         margin: 27px 0 27px;
-
+        font-family: "coolvetica","Nobile Medium";
+        
         &:active,
         &:hover{
           background: $red;

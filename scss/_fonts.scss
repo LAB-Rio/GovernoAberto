@@ -1,13 +1,43 @@
+
+@font-face {
+  font-family: 'Nobile Medium';
+  src: local('☺'), url($font-path + 'Nobile-Medium.ttf') format('truetype'), url($font-path + 'Nobile-Medium.woff') format('woff'),url($font-path + 'Nobile-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'Din Alternative';
-  src: url($font-path + 'din-bold.ttf');
+  src: url($font-path + 'din-bold.eot');
+  src: local('☺'),url($font-path + 'din-bold.eot?#iefix') format('embedded-opentype'), url($font-path + 'din-bold.ttf') format('truetype'), url($font-path + 'din-bold.woff') format('woff'),url($font-path + 'din-bold.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'coolvetica';
-  src: url($font-path + 'coolvetica.ttf');
+  src: url($font-path + 'coolvetica.eot');
+  src: local('☺'),
+  	   url($font-path + 'coolvetica.eot?#iefix') format('embedded-opentype'), 
+  	   url($font-path + 'coolvetica.ttf') format('truetype'), 
+  	   url($font-path + 'coolvetica.woff') format('woff'),
+  	   url($font-path + 'coolvetica.svg') format('svg');
   font-weight: normal;
   font-style: italic;
+}
+
+
+body{
+	-webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
+  -ms-text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.01);
+  -webkit-text-stroke: 1px transparent;
+  -moz-text-stroke: 1px transparent;
+  -ms-text-stroke: 1px transparent;
+  text-stroke: 1px transparent;
+  text-rendering: optimizeLegibility;
 }
