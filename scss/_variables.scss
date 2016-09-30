@@ -13,6 +13,7 @@ $red: #ef4136;
 
 $second-font: "Din Alternative";
 $first-font: "coolvetica";
+$Alternative: "Nobile Medium";
 
 @function responsive($value1, $value2, $width1: 320, $width2: 1920) {
   $x1: $width1;
