@@ -1,3 +1,11 @@
+
+@font-face {
+  font-family: 'Nobile Medium';
+  src: local('☺'), url($font-path + 'Nobile-Medium.ttf') format('truetype'), url($font-path + 'Nobile-Medium.woff') format('woff'),url($font-path + 'Nobile-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'Din Alternative';
   src: url($font-path + 'din-bold.eot');
