@@ -37,6 +37,7 @@ header {
         display: block;
         height: 100%;
         width: 100%;
+        color: #000;
 
         &.facebook {
           background: url($img-path + 'facebook.jpg') no-repeat center center $grey;
