@@ -8,6 +8,7 @@ footer{
       color: #000;
     }
     ul.footer-menu{
+      width: 100%;
       font-family: $first-font;
       text-transform: uppercase;
       margin-bottom: 50px;
@@ -22,6 +23,15 @@ footer{
         padding: 0 5px;
         a{
           color: #000;
+          &.right{
+            justify-content: flex-end;
+          }
+          img{
+            position: absolute;
+            width: 32px;
+            margin-left: 239px; 
+            bottom: 0px;  
+          }
         }
 
       }
@@ -32,25 +42,6 @@ footer{
     flex-wrap: wrap;
   }
 
-  .creative-code {
-    color: $dark-grey;
-    font-family: 'Maison Neue Mono';
-    font-size: 16px;
-    margin-left: 60px;
-
-    @media(max-width: 1250px) {
-      margin-bottom: 12px; 
-      margin-left: 0;
-    }
-
-    span {
-      color: $dark-grey;
-
-      &:nth-child(2n+1) {
-        color: $orange;
-      }
-    }
-  }
 
   .email {
     margin-right: 60px;
