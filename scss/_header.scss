@@ -2,11 +2,15 @@ header {
   align-items: center;
   display: flex;
   height: 84px;
-  justify-content: flex-end;
+  justify-content: flex-start;
   position: absolute;
   top: 0;
   width: 100%;
-
+  left: 20px;
+  
+  img { 
+    width: 60px;
+  }
   #social-nav {
     display: flex;
     margin-right: 42px;
