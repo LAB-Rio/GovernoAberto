@@ -1,19 +1,29 @@
 header {
-  align-items: center;
   display: flex;
-  height: 84px;
-  justify-content: flex-start;
-  position: absolute;
-  top: 0;
   width: 100%;
-  left: 20px;
+  
   
   img { 
     width: 60px;
   }
+  #brand{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: 0;
+    height: 84px;
+    left: 20px;
+  }
   #social-nav {
     display: flex;
-    margin-right: 42px;
+    flex: 1;
+    justify-content: flex-end;
+    // position: absolute;
+    // top: 0;
+    // height: 84px;
+    margin-right: 20px;
+    margin-top: 30px;
 
     li {
       display: inline-block;
