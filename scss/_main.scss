@@ -8,6 +8,28 @@
   justify-content: center;
   width: 100%;
 
+  @media(max-width: 414px) {
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .column, .columns {
+      width: 100%;
+    }
+    #governoaberto {
+      .lading-box {
+        .btn-opengovern {
+          justify-content: center;
+          display: flex;
+        }
+      }
+
+      img {
+        height: 180px;
+        margin: 47px;
+      }
+    }
+  }
+
   #governoaberto {
     img {
       height: 200px;
@@ -27,10 +49,7 @@
       margin-bottom: 24px;
     }
 
-    // div {
-    //   width: 100%;
-    //   text-align: center;
-    // }
+  
 
     .lading-box{
       
