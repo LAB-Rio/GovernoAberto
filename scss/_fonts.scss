@@ -1,13 +1,15 @@
 @font-face {
   font-family: 'Din Alternative';
-  src: url($font-path + 'din-bold.ttf');
+  src: url($font-path + 'din-bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'coolvetica';
-  src: url($font-path + 'coolvetica.ttf');
+  src: url($font-path + 'coolvetica.eot');
+  src: local('☺'), url($font-path + 'coolvetica.ttf') format('truetype'), url($font-path + 'coolvetica.woff') format('woff'),url($font-path + 'coolvetica.svg') format('svg');
   font-weight: normal;
   font-style: italic;
 }
+
