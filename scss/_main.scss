@@ -183,12 +183,16 @@
 .conteudo-principal{
   background: #f3f3f3;
   &--white{
-    margin-top: 30px;
     background: #fff;
   }
 }
 .social-media{
-  color: #000;
+  a{
+    color: #000;
+    &:hover{
+      color: #ef4136; 
+    }
+  }
 }
 
 main.hero {
