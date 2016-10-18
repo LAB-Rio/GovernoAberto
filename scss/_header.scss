@@ -2,7 +2,17 @@ header {
   display: flex;
   width: 100%;
   
-  
+  .msg{
+    
+    &_principal{
+      width: 600px;
+      font-size: 2.3em;
+      font-family: $first-font;
+      text-transform: uppercase;
+      color: #fff;
+      text-align: left;
+    }
+  }
   img { 
     width: 60px;
   }

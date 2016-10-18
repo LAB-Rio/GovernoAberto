@@ -57,3 +57,84 @@ footer{
     }
   }
 }
+
+
+.site-footer, .page-wrap:after {
+    height: 400px;
+
+    .footer-box {
+      display: inline-block;
+      height: 166px;
+      padding: 27px 50px 27px 0;
+      vertical-align: top;
+      
+      a {
+        color: #000;
+      }
+      .footer-title {
+        position: relative;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 1.2125em;
+        line-height: 1.04762em;
+        color: #000;
+        margin-bottom: 14px;
+        z-index: 1;
+      }
+      .footer-list {
+        list-style: none;
+        margin-left: 0;
+      }
+    }
+
+    .social-media {
+      padding-top: 50px;
+      padding-bottom: 20px;
+    }
+}
+
+.social-media {
+  ul{
+    &.social-list {
+      cursor: default;
+      list-style: none;
+      padding-left: 0;
+      margin: -1em 0 2em -1em;
+
+      li {
+        display: inline-block;
+        padding: 1em 0 0 1em;
+      }
+    }
+  }
+}
+
+.page-center {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background: #ccc;
+    height: 54%;
+}
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &_right{
+    justify-content: flex-end;
+  }
+  &_left{
+    justify-content: flex-start;
+  }
+  &-item{
+    &--top {
+      align-self: flex-start;
+    }
+    &--bottom {
+      align-self: flex-end;
+    }
+  }
+}
+
