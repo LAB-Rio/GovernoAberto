@@ -106,3 +106,123 @@
   }
   
 }
+
+/** New Page **/
+.header-paralax {
+  background: url($img-path + 'background_nucleo_one.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  position: fixed;
+  height: 436px;
+}
+
+
+.big-picture {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.conteudo-box {
+    margin-top: 202px;
+    margin-bottom: 202px;
+}
+
+.section-banner{
+  // second-image-opengov-rio
+  &.big-picture{
+    background: url($img-path + 'second-image-opengov-rio.jpg') no-repeat center center fixed;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.info-box{
+    font-family: "Helvetica";
+  &__number{
+    font-size: 2.8em;
+    font-weight: 600;
+  }
+  &__title{
+    font-family: $first-font;
+    font-size: 1.5em;
+    margin: 10px 0 0 40px;
+    text-transform: uppercase;
+  }
+  &__content{
+    font-size: 12pt;
+    line-height: 1.5;
+    margin: 10px 40px 50px;
+  }
+  &__picture{
+    img{
+      width: 100%;
+    }
+  }
+  &__button{
+    background: #ef4136;
+    color: #fff;
+    margin: 10px 0px 40px 40px;
+    text-transform: uppercase;
+    &:hover{
+      background: #fff;
+      color: #ef4136;
+      border: 1px solid #ef4136; 
+    }
+  }
+}
+.conteudo-principal{
+  background: #f3f3f3;
+  &--white{
+    margin-top: 30px;
+    background: #fff;
+  }
+}
+.social-media{
+  color: #000;
+}
+
+main.hero {
+    background: #fff;
+    position: relative;
+    top: 530px;
+}
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: 170px;
+}
+
+
+.conteudo-principal {
+    padding-top: 3.7%;
+    text-align: justify;
+}
+
+
+.box {
+  flex-direction: row;
+  margin: 90px 0 90px 0;
+  &__title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.9em;  
+    font-family: $first-font;
+  }
+
+  &__subtitle{
+    width: 625px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Helvetica";
+    margin: 34px 300px 38px;
+  }
+}
