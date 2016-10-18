@@ -146,7 +146,7 @@
   }
 }
 
-.info-box{
+.info-box,.box-buttons{
     font-family: "Helvetica";
   &__number{
     font-size: 2.8em;
@@ -177,6 +177,15 @@
       background: #fff;
       color: #ef4136;
       border: 1px solid #ef4136; 
+    }
+    &.violet{
+      background: #402d45;
+      color: #fff;
+      &:hover{
+        background: #fff;
+        color: #402d45;
+        border: 1px solid #402d45; 
+      }
     }
   }
 }
