@@ -1,10 +1,30 @@
 .mapeando{
-  font-family: Arial;
+  font-family: 'Open Sans', sans-serif;
   .mensagem_principal{
     p {
-      padding: 20px 0;
+      padding: 20px 110px 0px 0px;
+      text-align: justify;
+      color: #fff;
     }
   }
+  .info-box__title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+
+  }
+  .circle {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    background: #00CFEC;
+    color: white;
+    font-size: 20px;
+    }
   .box{
     &__title{
       padding: 85px;
@@ -13,6 +33,7 @@
     &__subtitle{
       width:100%;
       margin: 0;
+      line-height: 1.5;
     }
   }
   .hero{
