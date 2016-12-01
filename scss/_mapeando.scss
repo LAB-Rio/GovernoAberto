@@ -40,6 +40,33 @@
       height: 100%;
     }
   }
+  .btn{
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: rgba(33, 33, 33, 0.7);
+    background-color: rgba(255, 255, 255, 1);
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      background-color: #ed2654;
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+
+  }
+  .download{
+    color: #333;
+    text-align: center;
+    background-color: white;
+    background-image: url(http://www.labrio.cc/assets/images/mapeando_bg.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+  }
   .circle {
     width: 30px;
     height: 30px;
