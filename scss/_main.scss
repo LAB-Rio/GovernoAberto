@@ -120,6 +120,14 @@
     background-size: cover;
     width: 100%;
     position: fixed;
+    height: 522px;
+  }
+
+  &__perfil{
+    background: url($img-path + 'perfil_usuario_mvp.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    position: fixed;
     height: 436px;
   }
 }

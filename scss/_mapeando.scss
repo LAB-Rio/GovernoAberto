@@ -13,6 +13,33 @@
     font-size: 1em;
 
   }
+  .perfil_usuarios{
+      background: #3da5da;
+    .box{
+      margin: 90px 0 90px 40px;
+      &--mapeando{
+
+      }
+      &__title{
+        color: #EE2355;
+      }
+    }
+    .content {
+      height: 200px;
+      background: none;
+    }
+    .title{
+      width: 310px;
+      text-align: left;
+      text-transform: uppercase;
+      line-height: 1.2;
+      font-size: 3em;
+    }
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
   .circle {
     width: 30px;
     height: 30px;
@@ -27,7 +54,7 @@
     }
   .box{
     &__title{
-      padding: 85px;
+      padding: 0px 0 32px 0;
       color: #00CFEC;
     }
     &__subtitle{
